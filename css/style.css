@@ -16,28 +16,7 @@ li {
 a {
   text-decoration: none;
 }
-.main-booleando {
-  max-width: 1100px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-}
 
-.product {
-  flex-basis: calc(100% / 3);
-  padding: 0 5px;
-}
-
-/*.product-image .first {
-  display: block;
-}
-
-.product-image:hover .first {
-  display: none;
-}*/
-.product-image .second {
-  display: none;
-}
 .saled-price {
   color: red;
   display: inline;
@@ -49,8 +28,31 @@ a {
 .img-1row {
   width: 100%;
 }
-span {
+.marca {
   display: block;
+}
+.fa-heart {
+  background-color: white;
+  padding: 10px;
+  position: absolute;
+  top: 15px;
+  right: 5px;
+}
+.saled {
+  position: absolute;
+  bottom: 100px;
+  left: 5px;
+}
+.saled-red {
+  background-color: red;
+  color: white;
+  padding: 3px 5px;
+  margin-right: 5px;
+}
+.green-bio {
+  background-color: #008000;
+  color: white;
+  padding: 3px 5px;
 }
 /*Header*/
 header {
@@ -82,4 +84,27 @@ main {
   padding: 50px 0;
   max-width: 1100px;
   margin: 0 auto;
+}
+.main-booleando {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.product {
+  flex-basis: calc(100% / 3);
+  padding: 0 5px;
+  position: relative;
+}
+
+/*.product-image .first {
+  display: block;
+}
+
+.product-image:hover .first {
+  display: none;
+}*/
+.product-image .second {
+  display: none;
 }
