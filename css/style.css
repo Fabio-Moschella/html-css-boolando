@@ -9,12 +9,16 @@
 ul {
   list-style-type: none;
   display: flex;
+  vertical-align: middle;
 }
 li {
   padding: 0 5px;
 }
 a {
   text-decoration: none;
+}
+i {
+  padding: 5px;
 }
 
 .saled-price {
@@ -31,12 +35,12 @@ a {
 .marca {
   display: block;
 }
-.fa-heart {
+.fa-image {
   background-color: white;
-  padding: 10px;
   position: absolute;
   top: 15px;
   right: 5px;
+  padding: 10px;
 }
 .saled {
   position: absolute;
@@ -53,6 +57,10 @@ a {
   background-color: #008000;
   color: white;
   padding: 3px 5px;
+}
+h2 {
+  font-size: small;
+  font-weight: 900;
 }
 /*Header*/
 header {
@@ -75,6 +83,7 @@ header {
 .links-booleando {
   text-align: center;
   color: white;
+  align-items: center;
 }
 .icon-awsome {
   color: white;
@@ -95,17 +104,43 @@ main {
 
 .product {
   flex-basis: calc(100% / 3);
-  padding: 0 5px;
+  padding: 10px 5px;
   position: relative;
 }
 
-/*.product-image .first {
+.product-image .first {
   display: block;
+  z-index: 2;
 }
 
 .product-image:hover .first {
   display: none;
-}*/
+}
 .product-image .second {
   display: none;
+  z-index: 0;
+}
+/*FOOTER*/
+.footer-booleando {
+  background-color: #1a1a1a;
+  padding: 20px 0;
+}
+.info-footer {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+
+  color: white;
+}
+.title-footer {
+  padding-bottom: 5px;
+}
+.line-bord {
+  border: 0.5px solid white;
+  margin: 20px 0;
+}
+.footer2 {
+  min-height: 100px;
+  background-color: #1a1a1a;
 }
