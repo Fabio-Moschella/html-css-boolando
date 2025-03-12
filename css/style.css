@@ -42,6 +42,9 @@ i {
   right: 5px;
   padding: 10px;
 }
+.fa-image:hover {
+  color: red;
+}
 .saled {
   position: absolute;
   bottom: 100px;
@@ -110,7 +113,6 @@ main {
 
 .product-image .first {
   display: block;
-  z-index: 2;
 }
 
 .product-image:hover .first {
@@ -118,7 +120,9 @@ main {
 }
 .product-image .second {
   display: none;
-  z-index: 0;
+}
+.product-image:hover .second {
+  display: block;
 }
 /*FOOTER*/
 .footer-booleando {
